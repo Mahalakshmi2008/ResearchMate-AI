@@ -1,0 +1,365 @@
+{
+  "id": "sample-ai-education",
+  "title": "Applications of Artificial Intelligence in Education",
+  "topic": "Applications of Artificial Intelligence in Education",
+  "fieldOfStudy": "Educational Technology & Computer Science",
+  "academicLevel": "Undergraduate",
+  "paperType": "Literature Review & Analytical Study",
+  "plan": {
+    "topic": "Applications of Artificial Intelligence in Education",
+    "fieldOfStudy": "Educational Technology & Computer Science",
+    "academicLevel": "Undergraduate",
+    "paperType": "Literature Review & Analytical Study",
+    "researchQuestions": [
+      {
+        "question": "How can AI tools support personalized learning across diverse student cohorts?",
+        "type": "primary",
+        "rationale": "Addresses the core mechanism of adaptive scaffolding and automated instructional differentiation in higher and secondary education."
+      },
+      {
+        "question": "What are the primary institutional, pedagogical, and ethical challenges associated with deploying generative AI in student assessment?",
+        "type": "secondary",
+        "rationale": "Explores academic integrity, algorithmic bias, privacy regulations (e.g. FERPA/GDPR), and the risk of automated misgrading."
+      },
+      {
+        "question": "What empirical metrics best quantify student retention and conceptual mastery when utilizing AI tutoring systems?",
+        "type": "secondary",
+        "rationale": "Establishes measurable evaluation criteria comparing AI-assisted vs traditional pedagogy."
+      }
+    ],
+    "objectives": [
+      {
+        "objective": "Examine personalized learning benefits and adaptive instructional pathways facilitated by modern AI models.",
+        "timeframe": "Phase 1 (Weeks 1-3)",
+        "measurableOutcome": "Systematic comparison table of 10 adaptive learning platforms and their pedagogical models."
+      },
+      {
+        "objective": "Identify key technological challenges, data privacy concerns, and ethical dilemmas in AI-driven classrooms.",
+        "timeframe": "Phase 2 (Weeks 4-6)",
+        "measurableOutcome": "Synthesized risk taxonomy covering privacy, fairness, hallucination, and digital divide barriers."
+      },
+      {
+        "objective": "Formulate an evidence-based implementation framework and ethical guidelines for academic institutions.",
+        "timeframe": "Phase 3 (Weeks 7-9)",
+        "measurableOutcome": "Actionable policy blueprint for ethical AI tool adoption by university faculty."
+      }
+    ],
+    "suggestedKeywords": [
+      "AI in education",
+      "personalized learning",
+      "educational technology",
+      "adaptive learning systems",
+      "intelligent tutoring systems",
+      "algorithmic bias in grading"
+    ],
+    "booleanSearchQueries": [
+      "(\"Artificial Intelligence\" OR \"Generative AI\") AND (\"Personalized Learning\" OR \"Adaptive Learning\") AND (\"Higher Education\")",
+      "(\"Intelligent Tutoring Systems\") AND (\"Student Engagement\" OR \"Learning Outcomes\") AND (\"Ethics\" OR \"Bias\")"
+    ],
+    "methodologyDirection": {
+      "recommendedApproach": "Systematic Literature Review paired with Qualitative Thematic Synthesis",
+      "justification": "Given the rapid emergence of generative AI and adaptive models, a systematic synthesis of peer-reviewed empirical studies published between 2020-2026 provides clear clarity on real learning gains versus hype.",
+      "suggestedDataSources": [
+        "IEEE Xplore",
+        "ACM Digital Library",
+        "ERIC Database",
+        "Computers & Education Journal"
+      ]
+    },
+    "scopeAndLimitations": {
+      "scope": "Focuses on post-secondary and high-school computer science and STEM education applications of AI tutors and LLM-assisted feedback.",
+      "limitations": [
+        "Rapid pace of model updates creates temporal limitations for longitudinal outcome tracking.",
+        "Disparate access to paid frontier models creates socio-economic confounding variables."
+      ]
+    },
+    "academicDisclaimer": "Suggested research directions and hypothetical frameworks for study design. These items do not constitute verified empirical results and must be validated through primary or secondary academic investigation."
+  },
+  "groundedSources": [
+    {
+      "id": "src-sample-1",
+      "title": "Artificial Intelligence in Education: A Critical Review of Educational Technologies and Ethical Frameworks",
+      "authors": "Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F.",
+      "year": "2019",
+      "url": "https://doi.org/10.1186/s41239-019-0171-0",
+      "summary": "A seminal systematic review analyzing 146 research papers on AI in higher education, highlighting four main areas: profiling and prediction, assessment and evaluation, adaptive systems and personalization, and intelligent tutoring systems.",
+      "relevance": "Provides foundational taxonomy of AI educational applications and establishes the necessity of ethical safeguards.",
+      "keyContributions": [
+        "Categorized AIEd into four functional institutional dimensions",
+        "Identified lack of critical pedagogical reflection in purely technological papers"
+      ],
+      "isVerified": true,
+      "citationApa": "Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F. (2019). Systematic review of research on artificial intelligence applications in higher education – where are the educators? International Journal of Educational Technology in Higher Education, 16(1), Article 39. https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "id": "src-sample-2",
+      "title": "The Impact of Generative AI on Higher Education: A Comprehensive Assessment of Learning Efficacy",
+      "authors": "Holmes, W., & Tuomi, I.",
+      "year": "2022",
+      "url": "https://doi.org/10.1111/ejed.12533",
+      "summary": "Examines state-of-the-art intelligent tutoring systems, discussing how natural language generation can scaffold learner self-regulation while emphasizing the danger of passive cognitive offloading.",
+      "relevance": "Directly addresses research question 1 regarding personalized scaffolding and cognitive autonomy.",
+      "keyContributions": [
+        "Distinguished between productive cognitive scaffolding and detrimental offloading",
+        "Proposed human-in-the-loop validation for automated assessment systems"
+      ],
+      "isVerified": true,
+      "citationApa": "Holmes, W., & Tuomi, I. (2022). State of the art and practice in AI in education. European Journal of Education, 57(4), 542–570. https://doi.org/10.1111/ejed.12533"
+    }
+  ],
+  "summarizedPapers": [
+    {
+      "id": "doc-sample-1",
+      "title": "Personalized Learning Pathways via Adaptive Knowledge Tracing",
+      "authors": "Chen, L., & Martinez, K.",
+      "year": "2023",
+      "venueOrPublisher": "Journal of Educational Computing Research",
+      "coreQuestion": "Can deep knowledge tracing models accurately forecast student mastery drop-offs in introductory programming courses?",
+      "methodology": "Quasi-experimental study with N=342 undergraduate computer science students across two academic semesters using Bayesian knowledge tracing vs deep neural networks.",
+      "keyFindings": [
+        "Adaptive pacing yielded an average 18.4% improvement in second-attempt assessment scores.",
+        "Learners with lower prior baseline knowledge experienced the largest relative gain in task completion speed.",
+        "Students expressed concern when AI explanations failed to provide step-by-step counterexamples."
+      ],
+      "limitations": [
+        "Single-institution sample size in computer science; generalizability to humanities disciplines remains unmeasured."
+      ],
+      "apaCitation": "Chen, L., & Martinez, K. (2023). Personalized learning pathways via adaptive knowledge tracing. Journal of Educational Computing Research, 61(3), 512–534. https://doi.org/10.1177/0735633122114",
+      "unverifiedFields": [],
+      "userNotes": "Key study proving that lower-baseline students benefit most from adaptive hints."
+    }
+  ],
+  "outline": {
+    "topic": "Applications of Artificial Intelligence in Education",
+    "totalSuggestedWords": 4200,
+    "lastUpdated": "2026-10-27T01:21:24.992Z",
+    "sections": [
+      {
+        "id": "sec-1",
+        "sectionNumber": "1.0",
+        "title": "Introduction",
+        "suggestedWordCount": 650,
+        "draftingGuidance": "Frame the rapid evolution of AI in education, transition from static LMS to dynamic adaptive tutoring, and specify primary research questions.",
+        "subsections": [
+          {
+            "title": "1.1 Background & Context",
+            "bulletPoints": [
+              "Historical evolution from expert systems to contemporary neural language models in classroom contexts",
+              "Growth of digital learning environments and demand for individualized pedagogical attention"
+            ]
+          },
+          {
+            "title": "1.2 Problem Statement",
+            "bulletPoints": [
+              "Traditional one-to-many lecture formats struggle to adapt to heterogeneous learner proficiencies",
+              "Tension between rapid technological adoption and rigorous academic verification"
+            ]
+          },
+          {
+            "title": "1.3 Research Questions & Objectives",
+            "bulletPoints": [
+              "RQ1: How can AI tools support personalized learning without undermining critical thinking?",
+              "RQ2: What ethical and pedagogical challenges emerge during automated assessment?"
+            ]
+          },
+          {
+            "title": "1.4 Scope and Significance",
+            "bulletPoints": [
+              "Delimitation to higher education STEM cohorts",
+              "Contribution towards evidence-grounded institutional policy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec-2",
+        "sectionNumber": "2.0",
+        "title": "Literature Review",
+        "suggestedWordCount": 1100,
+        "draftingGuidance": "Thematically synthesize verified empirical findings on adaptive tutoring, cognitive scaffolding, and ethical critiques (Zawacki-Richter et al., Holmes & Tuomi).",
+        "subsections": [
+          {
+            "title": "2.1 Theoretical Framework: Cognitive Load & Scaffolding Theory",
+            "bulletPoints": [
+              "Vygotsky Zone of Proximal Development (ZPD) implemented via automated adaptive hints",
+              "Sweller Cognitive Load Theory and minimizing extraneous interface friction"
+            ]
+          },
+          {
+            "title": "2.2 Adaptive Tutoring Systems and Personalized Pathways",
+            "bulletPoints": [
+              "Comparative analysis of rule-based vs deep knowledge tracing algorithms",
+              "Documented student learning gains and self-efficacy metrics across cohorts"
+            ]
+          },
+          {
+            "title": "2.3 Ethical Challenges, Algorithmic Bias & Academic Integrity",
+            "bulletPoints": [
+              "Privacy concerns surrounding learner analytics and behavioural tracking",
+              "Risks of hallucinated explanations and over-reliance on automated assistance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec-3",
+        "sectionNumber": "3.0",
+        "title": "Methodology",
+        "suggestedWordCount": 850,
+        "draftingGuidance": "Outline the systematic review protocol following PRISMA guidelines and qualitative thematic coding framework.",
+        "subsections": [
+          {
+            "title": "3.1 Research Design",
+            "bulletPoints": [
+              "PRISMA-guided systematic review of empirical peer-reviewed studies published 2020-2026",
+              "Thematic synthesis protocol using NVivo for inductive qualitative coding"
+            ]
+          },
+          {
+            "title": "3.2 Inclusion & Exclusion Criteria",
+            "bulletPoints": [
+              "Inclusion: Empirical studies measuring quantitative learning outcomes or qualitative student experience",
+              "Exclusion: Opinion editorials, marketing whitepapers, and studies lacking transparent evaluation"
+            ]
+          },
+          {
+            "title": "3.3 Data Extraction and Quality Assessment",
+            "bulletPoints": [
+              "Standardized matrix tracking sample size, methodology, effect size, and bias controls",
+              "Inter-rater reliability validation between independent coders"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec-4",
+        "sectionNumber": "4.0",
+        "title": "Results / Expected Findings",
+        "suggestedWordCount": 750,
+        "draftingGuidance": "Synthesize findings across learning efficacy, student engagement, and recurring ethical friction points.",
+        "subsections": [
+          {
+            "title": "4.1 Efficacy of Personalized Learning Interventions",
+            "bulletPoints": [
+              "Consistent positive effect sizes reported in early-stage problem solving and mastery pacing",
+              "Greatest relative gains observed among students entering with lower baseline domain knowledge"
+            ]
+          },
+          {
+            "title": "4.2 Student Perception and Cognitive Autonomy",
+            "bulletPoints": [
+              "High initial engagement followed by frustration when feedback lack step-by-step justification",
+              "Emergence of automated shortcut patterns when validation checks are absent"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec-5",
+        "sectionNumber": "5.0",
+        "title": "Discussion",
+        "suggestedWordCount": 950,
+        "draftingGuidance": "Interpret outcomes, contrast with prior literature, examine practical implications for educators, and outline study limitations.",
+        "subsections": [
+          {
+            "title": "5.1 Pedagogical Synthesis & Implications",
+            "bulletPoints": [
+              "AI tools serve most effectively as augmentative coaches rather than pedagogical replacements",
+              "Necessity of structured prompt-scaffolding to foster metacognitive reflection"
+            ]
+          },
+          {
+            "title": "5.2 Policy and Institutional Recommendations",
+            "bulletPoints": [
+              "Transparent data governance mandates and clear student disclosure protocols",
+              "Faculty professional development programs focusing on AI literacy"
+            ]
+          },
+          {
+            "title": "5.3 Limitations of Current Scholarship",
+            "bulletPoints": [
+              "Dearth of multi-year longitudinal studies tracking post-graduation retention",
+              "Over-representation of STEM disciplines compared to qualitative social sciences"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec-6",
+        "sectionNumber": "6.0",
+        "title": "Conclusion",
+        "suggestedWordCount": 450,
+        "draftingGuidance": "Provide a concise recapitulation of central contributions and actionable future research questions.",
+        "subsections": [
+          {
+            "title": "6.1 Summary of Core Contributions",
+            "bulletPoints": [
+              "Reconciled conflicting literature on adaptive tutoring efficacy and cognitive offloading",
+              "Proposed a tri-partite framework balancing personalization, ethics, and critical thinking"
+            ]
+          },
+          {
+            "title": "6.2 Future Research Directions",
+            "bulletPoints": [
+              "Investigating cross-cultural adoption variations and multimodal tutor interfaces"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec-7",
+        "sectionNumber": "7.0",
+        "title": "References",
+        "suggestedWordCount": 150,
+        "draftingGuidance": "Format all verified sources in APA 7th edition with active DOIs.",
+        "subsections": [
+          {
+            "title": "7.1 Verified Reference List",
+            "bulletPoints": [
+              "Comprehensive bibliography formatted in APA 7th edition with persistent identifiers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "abstract": {
+    "topic": "Applications of Artificial Intelligence in Education",
+    "wordCount": 198,
+    "background": "The integration of artificial intelligence into educational settings is transforming pedagogical approaches, shifting instructional models from uniform lectures toward individualized, data-driven learning pathways.",
+    "objective": "This paper examines how AI-powered tools support personalized learning across diverse student cohorts while critically evaluating the institutional, technical, and ethical challenges associated with automated assessment and algorithmic feedback.",
+    "methodology": "Employing a systematic literature review guided by PRISMA principles and qualitative thematic synthesis, we analyze 48 peer-reviewed empirical studies published between 2020 and 2026 across higher education and secondary STEM environments.",
+    "expectedResults": "Findings reveal that adaptive AI tutoring systems yield measurable gains in concept mastery and pacing, particularly for learners possessing lower baseline domain knowledge; however, unchecked adoption introduces acute concerns regarding algorithmic opacity, privacy compliance, and student cognitive offloading.",
+    "significance": "We synthesize these insights into an actionable pedagogical framework that balances automated cognitive scaffolding with learner agency and institutional integrity.",
+    "fullAbstract": "The integration of artificial intelligence into educational settings is transforming pedagogical approaches, shifting instructional models from uniform lectures toward individualized, data-driven learning pathways. This paper examines how AI-powered tools support personalized learning across diverse student cohorts while critically evaluating the institutional, technical, and ethical challenges associated with automated assessment and algorithmic feedback. Employing a systematic literature review guided by PRISMA principles and qualitative thematic synthesis, we analyze 48 peer-reviewed empirical studies published between 2020 and 2026 across higher education and secondary STEM environments. Findings reveal that adaptive AI tutoring systems yield measurable gains in concept mastery and pacing, particularly for learners possessing lower baseline domain knowledge; however, unchecked adoption introduces acute concerns regarding algorithmic opacity, privacy compliance, and student cognitive offloading. We synthesize these insights into an actionable pedagogical framework that balances automated cognitive scaffolding with learner agency and institutional integrity.",
+    "keywords": [
+      "Artificial Intelligence in Education",
+      "Personalized Learning",
+      "Adaptive Tutoring Systems",
+      "Intelligent Scaffolding",
+      "Algorithmic Ethics",
+      "Educational Technology"
+    ]
+  },
+  "citations": [
+    {
+      "id": "cite-sample-1",
+      "sourceType": "journal",
+      "authors": "Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F.",
+      "year": "2019",
+      "title": "Systematic review of research on artificial intelligence applications in higher education – where are the educators?",
+      "sourceTitle": "International Journal of Educational Technology in Higher Education",
+      "volume": "16",
+      "issue": "1",
+      "pages": "Article 39",
+      "doiOrUrl": "https://doi.org/10.1186/s41239-019-0171-0",
+      "apa7": "Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F. (2019). Systematic review of research on artificial intelligence applications in higher education – where are the educators? International Journal of Educational Technology in Higher Education, 16(1), Article 39. https://doi.org/10.1186/s41239-019-0171-0",
+      "inTextParenthetical": "(Zawacki-Richter et al., 2019)",
+      "inTextNarrative": "Zawacki-Richter et al. (2019)",
+      "bibtex": "@article{zawacki2019systematic,\n  title={Systematic review of research on artificial intelligence applications in higher education--where are the educators?},\n  author={Zawacki-Richter, Olaf and Mar{\\'\\i}n, Victoria I and Bond, Melissa and Gouverneur, Franziska},\n  journal={International Journal of Educational Technology in Higher Education},\n  volume={16},\n  number={1},\n  pages={1--27},\n  year={2019},\n  publisher={SpringerOpen}\n}",
+      "mla9": "Zawacki-Richter, Olaf, et al. \"Systematic review of research on artificial intelligence applications in higher education – where are the educators?\" International Journal of Educational Technology in Higher Education, vol. 16, no. 1, 2019, article 39. doi:10.1186/s41239-019-0171-0.",
+      "validationWarnings": [],
+      "isUserVerified": true
+    }
+  ]
+}
